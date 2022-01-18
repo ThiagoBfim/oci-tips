@@ -1,5 +1,10 @@
 # Oracle Cloud Infrastructure Developer 2021 Associate (1Z0-1084-21)
 
+
+This file contains a resume about the Oracle Cloud Infrastructure Foundations course, and tips to get the 1Z0-1084-21 certification.
+
+![alt text](./certificate-1Z0-1084-21.png)
+
 ## Cloud Native
 
 - Describes container-based environments, deployed as microservices and managed on elastic infrastructure through agile DevOps, continuous delivery workflows.
@@ -727,7 +732,7 @@ R: Rolling updates allow Deployments' update to take place with zero downtime by
 
 R: Apply maxSurge and maxUnavailable in the Deployment spec
 
-9. You weant to allow applications running on an OCI compute instance leveraging OCI SDKs to call other OCI services.
+9. You want to allow applications running on an OCI compute instance leveraging OCI SDKs to call other OCI services.
 
 R: Instance Principal is the capability in the Oracle Cloud Infrastructure Identity and Access Management (IAM) service that allows you to make service calls from an instance
 
@@ -753,8 +758,9 @@ R: remote-exec provisioner helps invoke a script on the remote resource once it 
 
 13. Which two are required to enable Oracle Cloud Infrastructure (OCI) Container Engine for Kubernetes (OKE) cluster access from the kubectl CLI?
 
-R:  Install and configure the OCI CLI\
-A configured OCI API signing key pair
+R:  
+* Install and configure the OCI CLI\
+* configured OCI API signing key pair
 
 14. What is the default Load balancer shape used in OCI container Enginner for Kubernetes?
 
@@ -764,7 +770,7 @@ R: 100 Mbps
 
 R: fn deploy --ap travel-ap -- all
 
-16. A service you are deploying to Oracle infrastructure (OCI) Container En9ine for Kubernetes (OKE) uses a docker image from a private repository Which configuration is necessary to provide access to this repository from OKE?
+16. A service you are deploying to Oracle infrastructure (OCI) Container Engine for Kubernetes (OKE) uses a docker image from a private repository Which configuration is necessary to provide access to this repository from OKE?
 
 R: Create a docker-registry secret for OCIR with identity Auth Token on the cluster, and specify the image pull secret property in the application deployment manifest.
 
@@ -857,6 +863,16 @@ R: when there are no network partitions
 
 R: It involves implementing a separate service that makes multiple calls to other backend services
 
+35. What is a Service choreography:
+
+R:
+* Decision logic in service choreography is distributed
+* Services involved in choreography communicate through messages/messaging systems.
+
+36. Troubleshooting Oracle Functions
+
+R: DEBUG=1 fn invoke hello-world-func
+
 ## Links:
 
 * https://learn.oracle.com/ols/exam/35644/99037/146398
@@ -864,3 +880,4 @@ R: It involves implementing a separate service that makes multiple calls to othe
 * https://www.examtopics.com/exams/oracle/1z0-1084-20/
 * https://www.certification-questions.com/oracle-exam/1z0-1084-20-dumps.html
 * https://github.com/kaustavk/Oracle-1Z0-1084-20
+* https://quizlet.com/530284552/oci-devloper-exam-1z0-1084-20-flash-cards/
